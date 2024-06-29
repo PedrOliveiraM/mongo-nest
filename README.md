@@ -1,73 +1,52 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Login Back-End ![Em Andamento](https://img.shields.io/badge/status-em%20andamento-yellow)
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## Sobre
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+Este projeto tem como objetivo desenvolver um backend para o sistema de login, utilizando Nest.js e MongoDB. Ele representa a primeira fase de um projeto de iniciação científica, que servirá como base para futuras expansões.
 
-## Description
+Na fase inicial, o foco é implementar a funcionalidade de autenticação e gerenciamento de usuários. Em etapas subsequentes, a modelagem do banco de dados será expandida para incluir entidades como projetos, unidades e elementos. Esses componentes serão essenciais para o desenvolvimento e análise de desempenho energético de edifícios, permitindo a criação de um sistema robusto para avaliação e otimização energética.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Tecnologias
 
-## Installation
+![Tecnologias](https://skillicons.dev/icons?i=typescript,nest,mongo,git)
 
-```bash
-$ npm install
-```
+## Índice
 
-## Running the app
+- [Login Back-End ](#login-back-end-)
+  - [Sobre](#sobre)
+  - [Tecnologias](#tecnologias)
+  - [Índice](#índice)
+  - [Funcionalidades](#funcionalidades)
+  - [Instalação](#instalação)
+  - [Uso](#uso)
+  - [Contatos](#contatos)
 
-```bash
-# development
-$ npm run start
+## Funcionalidades
 
-# watch mode
-$ npm run start:dev
+- **Registro de Usuários**
+  Permite que novos usuários se registrem no sistema fornecendo informações como nome, email e senha.
 
-# production mode
-$ npm run start:prod
-```
+- **Autenticação de Usuários**
+  Permite aos usuários redefinir suas senhas através de um processo seguro de recuperação, geralmente envolvendo o envio de um link de redefinição por email.
 
-## Test
+- **Autorização e Controle de Acesso**
+  Implementação de mecanismos de autorização para garantir que apenas usuários autorizados possam acessar determinadas rotas ou funcionalidades.
+  Definição de papéis e permissões para diferentes tipos de usuários.
 
-```bash
-# unit tests
-$ npm run test
+## Instalação
 
-# e2e tests
-$ npm run test:e2e
+- **Instalação**
+  - npm install
+- **Rodando o app**
+  -$ npm run start ou npm run start:dev 
 
-# test coverage
-$ npm run test:cov
-```
+## Uso
 
-## Support
+Será utilizado por engenheiros, arquitetos, Gestores , Pesquisadores e Acadêmicos.
+Será um sistema web integrado com IA(Inteligência Artificial) para ajudar na busca de melhorias de seus projetos.
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Contatos
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+[![Instagram](https://img.shields.io/badge/Instagram-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://instagram.com/pedro.liveiram)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-oliveira-m/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pedropucmont@gmail.com)
